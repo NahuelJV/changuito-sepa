@@ -1,0 +1,655 @@
+{
+  "version" : 1,
+  "fecha" : "2026-09-28",
+  "generadoEn" : "2026-09-29T22:42:23Z",
+  "cadenas" : [ "CARREFOUR", "COTO" ],
+  "catalogo" : {
+    "archivo" : "v1/catalogo.json.gz",
+    "bytes" : 695161,
+    "sha256" : "8b999102c546e4ff1272197b8c64924b03441eed9e8fa2e973bacf20400f19ee"
+  },
+  "celdas" : {
+    "-242_-654" : {
+      "archivo" : "v1/celdas/-242_-654.json.gz",
+      "sucursales" : 1,
+      "bytes" : 39698,
+      "sha256" : "b69ca2d9ccc0a9b87a646e62223c48d4a05d7181c0e1495d65cc0eeb88a4ad3b"
+    },
+    "-248_-655" : {
+      "archivo" : "v1/celdas/-248_-655.json.gz",
+      "sucursales" : 6,
+      "bytes" : 104336,
+      "sha256" : "eb61197c511147659a6457df8d1dbdb65aab0c65130a6ae0a538aa414cfbc65f"
+    },
+    "-262_-582" : {
+      "archivo" : "v1/celdas/-262_-582.json.gz",
+      "sucursales" : 2,
+      "bytes" : 104361,
+      "sha256" : "7872e85f54a1408b9e0f95d88dd3d452c14c53327a1ff058a8894fbe81731d41"
+    },
+    "-269_-653" : {
+      "archivo" : "v1/celdas/-269_-653.json.gz",
+      "sucursales" : 4,
+      "bytes" : 119848,
+      "sha256" : "36e2b7183456f33a1199c09bab7d2242059db3b255f200d2f8f8f176529f5e89"
+    },
+    "-275_-589" : {
+      "archivo" : "v1/celdas/-275_-589.json.gz",
+      "sucursales" : 2,
+      "bytes" : 132984,
+      "sha256" : "a9fd5b0fc0fc9591e8f1c66e824d9a0c4d6e4d9c10b7c02f34cb737aa212b2b8"
+    },
+    "-275_-590" : {
+      "archivo" : "v1/celdas/-275_-590.json.gz",
+      "sucursales" : 1,
+      "bytes" : 98766,
+      "sha256" : "978ea53d8593ea3de11f934726fe05a8d57075081aef81bdb132a72955b338a2"
+    },
+    "-275_-591" : {
+      "archivo" : "v1/celdas/-275_-591.json.gz",
+      "sucursales" : 1,
+      "bytes" : 42788,
+      "sha256" : "6133f1fd439fbf1178c8096e0d9793d117545bb52bd68de5b23a2adb8862ce9b"
+    },
+    "-285_-658" : {
+      "archivo" : "v1/celdas/-285_-658.json.gz",
+      "sucursales" : 3,
+      "bytes" : 117832,
+      "sha256" : "9382bdd1c0c6f60ef9908b6bf989b89cdf8fb0679dcc0ea44fc348b571f87592"
+    },
+    "-295_-669" : {
+      "archivo" : "v1/celdas/-295_-669.json.gz",
+      "sucursales" : 1,
+      "bytes" : 50066,
+      "sha256" : "3013bb4b54f29f69ae0f446caa43fabf963b2a16f949e17fe6b830877152b216"
+    },
+    "-310_-641" : {
+      "archivo" : "v1/celdas/-310_-641.json.gz",
+      "sucursales" : 1,
+      "bytes" : 19310,
+      "sha256" : "ce1f8bd944416de6f8d9d4e865f60998b029a2a588e5a4639ee5532d5d5d8a42"
+    },
+    "-310_-645" : {
+      "archivo" : "v1/celdas/-310_-645.json.gz",
+      "sucursales" : 1,
+      "bytes" : 17952,
+      "sha256" : "85d050ae2ca96ca9588e82e7bcab30412292124b619cbbfd4d839bbbc73b6928"
+    },
+    "-311_-645" : {
+      "archivo" : "v1/celdas/-311_-645.json.gz",
+      "sucursales" : 2,
+      "bytes" : 21514,
+      "sha256" : "7e255430787fc75e18413a8f2a8f1efd6b9b679f0525d3a5b13a56c3e92df4d6"
+    },
+    "-312_-644" : {
+      "archivo" : "v1/celdas/-312_-644.json.gz",
+      "sucursales" : 1,
+      "bytes" : 17625,
+      "sha256" : "74511b5e48c1ffd01707f39b8b14640008bcfa68e44ea6070200242d564a89c8"
+    },
+    "-313_-643" : {
+      "archivo" : "v1/celdas/-313_-643.json.gz",
+      "sucursales" : 1,
+      "bytes" : 17513,
+      "sha256" : "34a43a8a60a81fc4c6015e626c2ea0a86167ffce6a8d47259a8a32304c5e3f0c"
+    },
+    "-313_-645" : {
+      "archivo" : "v1/celdas/-313_-645.json.gz",
+      "sucursales" : 2,
+      "bytes" : 19509,
+      "sha256" : "ee865081696a849734bc2600fbf7495260c2bf06cc6fec687f76494231d8499a"
+    },
+    "-314_-581" : {
+      "archivo" : "v1/celdas/-314_-581.json.gz",
+      "sucursales" : 2,
+      "bytes" : 129135,
+      "sha256" : "70616c11c0657f0b81adebccafb0ec0a92b98c12e231614f5b0013b432c32b34"
+    },
+    "-314_-642" : {
+      "archivo" : "v1/celdas/-314_-642.json.gz",
+      "sucursales" : 8,
+      "bytes" : 71052,
+      "sha256" : "7cf0dd398163c37f12020c81393eead0ce4b2c825f4a5b68c93721fdcea1516a"
+    },
+    "-314_-643" : {
+      "archivo" : "v1/celdas/-314_-643.json.gz",
+      "sucursales" : 12,
+      "bytes" : 196021,
+      "sha256" : "fc55119277d4091fb89bde663a24df8fc70a3b950643febab5df0d63a69847c3"
+    },
+    "-315_-642" : {
+      "archivo" : "v1/celdas/-315_-642.json.gz",
+      "sucursales" : 36,
+      "bytes" : 182445,
+      "sha256" : "d61939397e775a7bf441a847fc28b7116ec4529dac1e020c2e1fabacce7407fa"
+    },
+    "-315_-643" : {
+      "archivo" : "v1/celdas/-315_-643.json.gz",
+      "sucursales" : 10,
+      "bytes" : 71235,
+      "sha256" : "8690790b90ce515603823df915d369f27ec4677459030b33b047e3e9cf1b3f1a"
+    },
+    "-315_-645" : {
+      "archivo" : "v1/celdas/-315_-645.json.gz",
+      "sucursales" : 2,
+      "bytes" : 20515,
+      "sha256" : "f3d1641e37b2322ddc61717895a34f2b3497cfcdc000b8802149376dd5b58720"
+    },
+    "-315_-646" : {
+      "archivo" : "v1/celdas/-315_-646.json.gz",
+      "sucursales" : 1,
+      "bytes" : 16653,
+      "sha256" : "4ddef38f45736884ffee03a5347aeea535eeb079b071c5f6fc1730f059ecad72"
+    },
+    "-316_-686" : {
+      "archivo" : "v1/celdas/-316_-686.json.gz",
+      "sucursales" : 1,
+      "bytes" : 64260,
+      "sha256" : "a08a8b92fd614c92222cad5d79916340c406948807cea70942e23924fec58b92"
+    },
+    "-317_-608" : {
+      "archivo" : "v1/celdas/-317_-608.json.gz",
+      "sucursales" : 2,
+      "bytes" : 55944,
+      "sha256" : "3a9f58bc8d79f4cc2b6cf84de027ab4363b9806877b99b1a6eaae8f86d85fd76"
+    },
+    "-317_-640" : {
+      "archivo" : "v1/celdas/-317_-640.json.gz",
+      "sucursales" : 1,
+      "bytes" : 21222,
+      "sha256" : "6d3dbc0ebc728098f4cb6d655a5258acc4108b55a2fdb62d898746eea21cab85"
+    },
+    "-317_-645" : {
+      "archivo" : "v1/celdas/-317_-645.json.gz",
+      "sucursales" : 2,
+      "bytes" : 21562,
+      "sha256" : "70d65f6e005e9596dbaedf4241409ce13939ae9eacc15626add5772522b0b080"
+    },
+    "-318_-606" : {
+      "archivo" : "v1/celdas/-318_-606.json.gz",
+      "sucursales" : 10,
+      "bytes" : 186847,
+      "sha256" : "dbfaac82592a80a256d43fa7ad8034a7b9977c1cd222765e94d1fe65732799ee"
+    },
+    "-328_-686" : {
+      "archivo" : "v1/celdas/-328_-686.json.gz",
+      "sucursales" : 1,
+      "bytes" : 18035,
+      "sha256" : "927195e3c2a6362d93a9025bdea321bf739145b678eaa553f7c622c8170dc9cb"
+    },
+    "-329_-689" : {
+      "archivo" : "v1/celdas/-329_-689.json.gz",
+      "sucursales" : 21,
+      "bytes" : 218699,
+      "sha256" : "943f9e0fc22103f2fc7c6aa1f22f41f18654d23bdea131a4976680dc0a0fae60"
+    },
+    "-330_-586" : {
+      "archivo" : "v1/celdas/-330_-586.json.gz",
+      "sucursales" : 1,
+      "bytes" : 110505,
+      "sha256" : "a273faa03f2f8a9ce2fff4fa97ecdc8c16b4b49f1b296eb0f23f0bb324418aa5"
+    },
+    "-330_-607" : {
+      "archivo" : "v1/celdas/-330_-607.json.gz",
+      "sucursales" : 7,
+      "bytes" : 196561,
+      "sha256" : "457948fd17501c8e3de7d5b0a9481d0f5b96a19e7f61e7d197b6cbf2426adf20"
+    },
+    "-330_-608" : {
+      "archivo" : "v1/celdas/-330_-608.json.gz",
+      "sucursales" : 3,
+      "bytes" : 189825,
+      "sha256" : "f15c33a4d0c0b13d7bc8b4c3b29ff9f2124d9591cb9d3804667db4991cb37025"
+    },
+    "-330_-688" : {
+      "archivo" : "v1/celdas/-330_-688.json.gz",
+      "sucursales" : 4,
+      "bytes" : 155063,
+      "sha256" : "7545c89b71d868393202fab9092002fbf2e4fd41a22563204ead416f528484a6"
+    },
+    "-330_-689" : {
+      "archivo" : "v1/celdas/-330_-689.json.gz",
+      "sucursales" : 7,
+      "bytes" : 111468,
+      "sha256" : "7e05fbde78482a0255bc8508efb42f498666c44af9140730307cfb989a3a39bf"
+    },
+    "-331_-685" : {
+      "archivo" : "v1/celdas/-331_-685.json.gz",
+      "sucursales" : 1,
+      "bytes" : 39600,
+      "sha256" : "464c90ea7a614f5965ab75ad84168b42b0be525ce40d165b3a149de43f3b2f29"
+    },
+    "-331_-688" : {
+      "archivo" : "v1/celdas/-331_-688.json.gz",
+      "sucursales" : 1,
+      "bytes" : 16939,
+      "sha256" : "4b3d386677c70f7fb0e767339eb042bdb113c2dc6b14e240d19d46d8ef012afb"
+    },
+    "-331_-689" : {
+      "archivo" : "v1/celdas/-331_-689.json.gz",
+      "sucursales" : 3,
+      "bytes" : 59317,
+      "sha256" : "55cdc5a1addcd68fcf218b7d3789b9dee1f2bb64445c86c6af22ab957da22760"
+    },
+    "-331_-690" : {
+      "archivo" : "v1/celdas/-331_-690.json.gz",
+      "sucursales" : 2,
+      "bytes" : 20412,
+      "sha256" : "35733d887062e63173a0f892f453476ca2b3d79ff7f30060b01168fd8b6c44a2"
+    },
+    "-332_-644" : {
+      "archivo" : "v1/celdas/-332_-644.json.gz",
+      "sucursales" : 1,
+      "bytes" : 46567,
+      "sha256" : "b1afd39256dddbae8e4e1df415f3293019a3ba6ae7554b776fced081be5c6845"
+    },
+    "-334_-603" : {
+      "archivo" : "v1/celdas/-334_-603.json.gz",
+      "sucursales" : 2,
+      "bytes" : 85763,
+      "sha256" : "bb25eaed92721e7817aa3e4e84d6b92cd933a0c8fdb1e66c635e12e94011a6e8"
+    },
+    "-334_-664" : {
+      "archivo" : "v1/celdas/-334_-664.json.gz",
+      "sucursales" : 2,
+      "bytes" : 76740,
+      "sha256" : "7762060df61b5e883eeddc29b42796918f45d62b4530168c4c6826344bd1b74f"
+    },
+    "-334_-692" : {
+      "archivo" : "v1/celdas/-334_-692.json.gz",
+      "sucursales" : 1,
+      "bytes" : 23642,
+      "sha256" : "82887444934e4bf133eec91606e3e49627f3ae39f09209b9bdbd85130093b0c0"
+    },
+    "-337_-655" : {
+      "archivo" : "v1/celdas/-337_-655.json.gz",
+      "sucursales" : 1,
+      "bytes" : 105557,
+      "sha256" : "924e9354ff595ffa3dbdc20340a1adefcbff155cce348b2a6be3ca3121295e5e"
+    },
+    "-338_-620" : {
+      "archivo" : "v1/celdas/-338_-620.json.gz",
+      "sucursales" : 1,
+      "bytes" : 83389,
+      "sha256" : "55a7d82e3212cb9ccbae456c632f1e27884e12b7a001168e8d3ef005d157cfa2"
+    },
+    "-340_-606" : {
+      "archivo" : "v1/celdas/-340_-606.json.gz",
+      "sucursales" : 2,
+      "bytes" : 117035,
+      "sha256" : "b2ffe84a61f0b2d6ff2a9fc934babbdf395ae8e1fec835f688515bbc0bc98511"
+    },
+    "-342_-590" : {
+      "archivo" : "v1/celdas/-342_-590.json.gz",
+      "sucursales" : 3,
+      "bytes" : 144042,
+      "sha256" : "f30e6394622228f807948442b159ae0b20ed80060a6901eb820bec0d54329124"
+    },
+    "-342_-591" : {
+      "archivo" : "v1/celdas/-342_-591.json.gz",
+      "sucursales" : 1,
+      "bytes" : 111389,
+      "sha256" : "43b894e7fb0b716b9a9cc5dc70b8256b7968223893a9811a0161004901a598af"
+    },
+    "-344_-588" : {
+      "archivo" : "v1/celdas/-344_-588.json.gz",
+      "sucursales" : 3,
+      "bytes" : 134085,
+      "sha256" : "68ca183b35bdb2302a38d0980527efbad5b86dda1fd86b093eb9450b54aa46d0"
+    },
+    "-344_-589" : {
+      "archivo" : "v1/celdas/-344_-589.json.gz",
+      "sucursales" : 1,
+      "bytes" : 45808,
+      "sha256" : "998eba7e5a7c4fb61d254be5e750f0d674a7618aee49d8b2beed82a89c190a05"
+    },
+    "-345_-585" : {
+      "archivo" : "v1/celdas/-345_-585.json.gz",
+      "sucursales" : 3,
+      "bytes" : 70909,
+      "sha256" : "975d802b929b154967fd8c49b1e07692106b177d87657570fd6cc9df248efc2d"
+    },
+    "-345_-586" : {
+      "archivo" : "v1/celdas/-345_-586.json.gz",
+      "sucursales" : 16,
+      "bytes" : 313360,
+      "sha256" : "5bfd0291f2814fed995a58c2cb90c1443cb16461ac0053aa0d452862d2b55b13"
+    },
+    "-345_-587" : {
+      "archivo" : "v1/celdas/-345_-587.json.gz",
+      "sucursales" : 4,
+      "bytes" : 188363,
+      "sha256" : "cbcc379e2cefead077cc4e84a7fa47e490e8ecdef3492247085b260e82fb7b11"
+    },
+    "-345_-588" : {
+      "archivo" : "v1/celdas/-345_-588.json.gz",
+      "sucursales" : 8,
+      "bytes" : 144963,
+      "sha256" : "a26d0d44e53754b7f173c5a790d61fb67b53a5c2a3497960f83094e275843e16"
+    },
+    "-345_-589" : {
+      "archivo" : "v1/celdas/-345_-589.json.gz",
+      "sucursales" : 2,
+      "bytes" : 139845,
+      "sha256" : "bc88f31ecb267e67cb694595289417b647808bc2e30a567d5b82bb498c6fc8c3"
+    },
+    "-345_-590" : {
+      "archivo" : "v1/celdas/-345_-590.json.gz",
+      "sucursales" : 2,
+      "bytes" : 74766,
+      "sha256" : "75e68c707a73c1486f5153ebf85b2606bd2853b79abf8b514c24e880c50e0ce9"
+    },
+    "-346_-584" : {
+      "archivo" : "v1/celdas/-346_-584.json.gz",
+      "sucursales" : 32,
+      "bytes" : 183371,
+      "sha256" : "800f782c9a3af91609d887986bc72864611fbcada6098f03653c23a4fbdb7e8d"
+    },
+    "-346_-585" : {
+      "archivo" : "v1/celdas/-346_-585.json.gz",
+      "sucursales" : 161,
+      "bytes" : 599415,
+      "sha256" : "a46c0257228c4dc8c531200b374355146da18907d86aa56bc561f8ff161054bd"
+    },
+    "-346_-586" : {
+      "archivo" : "v1/celdas/-346_-586.json.gz",
+      "sucursales" : 26,
+      "bytes" : 317458,
+      "sha256" : "daf5c30f4d0389b37c3bb37723209c46cc665570009d0d9973cc352d4bbc82d5"
+    },
+    "-346_-587" : {
+      "archivo" : "v1/celdas/-346_-587.json.gz",
+      "sucursales" : 7,
+      "bytes" : 194592,
+      "sha256" : "6b2acd3910de9808bfe6d2bc3b8b3943996c0eac9133fc2e5033514a6d3f4b98"
+    },
+    "-346_-588" : {
+      "archivo" : "v1/celdas/-346_-588.json.gz",
+      "sucursales" : 6,
+      "bytes" : 243757,
+      "sha256" : "b4c9b685f4086cd215efac083adf035417b78c911f0814cf8c85d60d8cd794a7"
+    },
+    "-346_-592" : {
+      "archivo" : "v1/celdas/-346_-592.json.gz",
+      "sucursales" : 2,
+      "bytes" : 119478,
+      "sha256" : "6c9de5ec61cd57f97cbcefd2221d3e817d39033bf30fc1f35d07550076cb74e3"
+    },
+    "-347_-584" : {
+      "archivo" : "v1/celdas/-347_-584.json.gz",
+      "sucursales" : 72,
+      "bytes" : 272251,
+      "sha256" : "ff0fb005225365609ffe64077e8b25218cbf47d7e8c132b11533d638efda3c2a"
+    },
+    "-347_-585" : {
+      "archivo" : "v1/celdas/-347_-585.json.gz",
+      "sucursales" : 144,
+      "bytes" : 557985,
+      "sha256" : "ef677b48d66360d2c3f77f0be0fbd079433f8c64050bfa058a1ab5b96e7f5e72"
+    },
+    "-347_-586" : {
+      "archivo" : "v1/celdas/-347_-586.json.gz",
+      "sucursales" : 42,
+      "bytes" : 334279,
+      "sha256" : "0f04b995b36de2ac459720f04a235a0db657450da8893ffbff56bf3299bb1fce"
+    },
+    "-347_-587" : {
+      "archivo" : "v1/celdas/-347_-587.json.gz",
+      "sucursales" : 12,
+      "bytes" : 242687,
+      "sha256" : "e0bfacb8cb309615d933e7f60092dcb9041b482f38d3498658818f4e05a2c123"
+    },
+    "-347_-588" : {
+      "archivo" : "v1/celdas/-347_-588.json.gz",
+      "sucursales" : 7,
+      "bytes" : 225043,
+      "sha256" : "85f7767314eabdc65dded67b9c13531e622cddca8fd5ec9c259592f9964662b0"
+    },
+    "-347_-590" : {
+      "archivo" : "v1/celdas/-347_-590.json.gz",
+      "sucursales" : 2,
+      "bytes" : 73697,
+      "sha256" : "32dec04570cb7f011be895155aedf3a322aea9d9f31f54e57a48d1177043a171"
+    },
+    "-348_-583" : {
+      "archivo" : "v1/celdas/-348_-583.json.gz",
+      "sucursales" : 13,
+      "bytes" : 271166,
+      "sha256" : "1e7322d57d44b8b577a89c3cbc1f044b3a1ebcbb0cb1d04492916d86810522f8"
+    },
+    "-348_-584" : {
+      "archivo" : "v1/celdas/-348_-584.json.gz",
+      "sucursales" : 8,
+      "bytes" : 139045,
+      "sha256" : "7f500961131273fc0c08e859c17fc0b151e18b6bd41a949b2d791bb70679fefc"
+    },
+    "-348_-585" : {
+      "archivo" : "v1/celdas/-348_-585.json.gz",
+      "sucursales" : 11,
+      "bytes" : 267312,
+      "sha256" : "d878d88aec3c8afe84e29ffe4fb2489e7c84c962294c19bdcb8010a315f5bc1b"
+    },
+    "-348_-586" : {
+      "archivo" : "v1/celdas/-348_-586.json.gz",
+      "sucursales" : 4,
+      "bytes" : 23302,
+      "sha256" : "e39c0f991160a7b2e3e4ab15c77f6affc97ec7230c42a90e7d8901a4d4225708"
+    },
+    "-348_-587" : {
+      "archivo" : "v1/celdas/-348_-587.json.gz",
+      "sucursales" : 3,
+      "bytes" : 69923,
+      "sha256" : "170574150eba56a58b65e2038deff5993433e7159f70b6aa9683792bad54df7c"
+    },
+    "-348_-588" : {
+      "archivo" : "v1/celdas/-348_-588.json.gz",
+      "sucursales" : 1,
+      "bytes" : 18235,
+      "sha256" : "b5d0a24fcf69d25f8951950bebe76212200e71b19cd32c568a2bd8114ee88b70"
+    },
+    "-349_-580" : {
+      "archivo" : "v1/celdas/-349_-580.json.gz",
+      "sucursales" : 1,
+      "bytes" : 134021,
+      "sha256" : "97aa1c88d51b8053fd9572f0aa4ee6fe9ead1ea86d0a680c7df3d8f777b17d47"
+    },
+    "-349_-581" : {
+      "archivo" : "v1/celdas/-349_-581.json.gz",
+      "sucursales" : 1,
+      "bytes" : 19094,
+      "sha256" : "06ef3411ec50c5ebe602d5ced4ede495e9c77904b2d2c463a6987a355a37618c"
+    },
+    "-349_-583" : {
+      "archivo" : "v1/celdas/-349_-583.json.gz",
+      "sucursales" : 1,
+      "bytes" : 17762,
+      "sha256" : "fa9173e733411af896bd6460aca0b21196279c15ddac885ea1a0936a7e8424f3"
+    },
+    "-349_-584" : {
+      "archivo" : "v1/celdas/-349_-584.json.gz",
+      "sucursales" : 6,
+      "bytes" : 191988,
+      "sha256" : "01ad2ef5eba7e6e9986ec187d698f782f9f1d8843aba77a1e1979c9c302f589e"
+    },
+    "-349_-585" : {
+      "archivo" : "v1/celdas/-349_-585.json.gz",
+      "sucursales" : 2,
+      "bytes" : 72458,
+      "sha256" : "cacfca00a7ed4683c81b578745faf533757e9d1fb3cade2df6b2d5eaaf2051d6"
+    },
+    "-349_-586" : {
+      "archivo" : "v1/celdas/-349_-586.json.gz",
+      "sucursales" : 2,
+      "bytes" : 75329,
+      "sha256" : "71f6d632e87b1963dab979cb20bb3d6278ac5e77bc3fc433189cc8c1c225e96f"
+    },
+    "-350_-580" : {
+      "archivo" : "v1/celdas/-350_-580.json.gz",
+      "sucursales" : 3,
+      "bytes" : 87771,
+      "sha256" : "6365ba626bc219ad75f907a5639fef96de0c57793eeb3ea4098a86ef05be7f94"
+    },
+    "-350_-584" : {
+      "archivo" : "v1/celdas/-350_-584.json.gz",
+      "sucursales" : 1,
+      "bytes" : 39095,
+      "sha256" : "2cb8c036b2ff5c85b57df01082130b6dd824af9bb9b2b97964d983167de2e783"
+    },
+    "-350_-600" : {
+      "archivo" : "v1/celdas/-350_-600.json.gz",
+      "sucursales" : 1,
+      "bytes" : 38542,
+      "sha256" : "be68ee2e4c67beeb75df6372e27849f2285ce2147057e52e839d747a619b2bdb"
+    },
+    "-351_-588" : {
+      "archivo" : "v1/celdas/-351_-588.json.gz",
+      "sucursales" : 1,
+      "bytes" : 39788,
+      "sha256" : "938061a16bad61569fec1cc21b3016ea9053bdb1f0c716ba10b631170825be97"
+    },
+    "-366_-568" : {
+      "archivo" : "v1/celdas/-366_-568.json.gz",
+      "sucursales" : 1,
+      "bytes" : 67882,
+      "sha256" : "bc877d8bb0d16877b123dce15a2af8596aa3186c399d5fca81bf77b91bfc09f5"
+    },
+    "-367_-643" : {
+      "archivo" : "v1/celdas/-367_-643.json.gz",
+      "sucursales" : 3,
+      "bytes" : 109373,
+      "sha256" : "aa311aca6870e1403012fe71391b281a112dcba15f011532388cd66de0157a93"
+    },
+    "-368_-567" : {
+      "archivo" : "v1/celdas/-368_-567.json.gz",
+      "sucursales" : 1,
+      "bytes" : 45818,
+      "sha256" : "d6578593e201ca2a70164a6e8bca229105f25834bf330a6ed834591aad05895f"
+    },
+    "-369_-604" : {
+      "archivo" : "v1/celdas/-369_-604.json.gz",
+      "sucursales" : 1,
+      "bytes" : 69698,
+      "sha256" : "bf50cc9b1cb49596d95a9e5fbe02d507db249a61d7b9ad28169c995082792e21"
+    },
+    "-370_-604" : {
+      "archivo" : "v1/celdas/-370_-604.json.gz",
+      "sucursales" : 1,
+      "bytes" : 49595,
+      "sha256" : "5f716b2972a2cd59f230627bde7644a0b8d81dfa007b3bfe17a11a1408b40e46"
+    },
+    "-372_-569" : {
+      "archivo" : "v1/celdas/-372_-569.json.gz",
+      "sucursales" : 1,
+      "bytes" : 47428,
+      "sha256" : "d5e23e8b18cef36b2683e952a7297a8174817c58d3a63ce11f2855c2c8aa26ce"
+    },
+    "-372_-570" : {
+      "archivo" : "v1/celdas/-372_-570.json.gz",
+      "sucursales" : 1,
+      "bytes" : 69368,
+      "sha256" : "a710c50d40e3572a606088678e2368d096151761b68da739325278979b2e17e5"
+    },
+    "-374_-592" : {
+      "archivo" : "v1/celdas/-374_-592.json.gz",
+      "sucursales" : 3,
+      "bytes" : 155211,
+      "sha256" : "1c03b6aa5cf648223353ed16947002d991320a8a2e4e3a544792d89d244e0ca2"
+    },
+    "-380_-576" : {
+      "archivo" : "v1/celdas/-380_-576.json.gz",
+      "sucursales" : 2,
+      "bytes" : 156790,
+      "sha256" : "7d5e45ed3e6159e9c0c42c6e7d2f7422fb59e7ab1c90b3eb973a21071a84b9d1"
+    },
+    "-381_-576" : {
+      "archivo" : "v1/celdas/-381_-576.json.gz",
+      "sucursales" : 2,
+      "bytes" : 108765,
+      "sha256" : "ffb9915e3e16758924defea1f49c0a89cff336c904421cfc8cffa55eefdc854b"
+    },
+    "-388_-623" : {
+      "archivo" : "v1/celdas/-388_-623.json.gz",
+      "sucursales" : 1,
+      "bytes" : 48362,
+      "sha256" : "7ee67d579c188dc9695e993c67b6d612009c1861c0cb52c95c035fe6c816004d"
+    },
+    "-390_-681" : {
+      "archivo" : "v1/celdas/-390_-681.json.gz",
+      "sucursales" : 2,
+      "bytes" : 180272,
+      "sha256" : "989de24d1ec80cae6dacad4c2181264f66c946b5ba5e20662b8340409c07d431"
+    },
+    "-390_-682" : {
+      "archivo" : "v1/celdas/-390_-682.json.gz",
+      "sucursales" : 1,
+      "bytes" : 90841,
+      "sha256" : "2148559fa5126f71be8cef9175b72c447d43241ba37d3a0cf40f7455387a3935"
+    },
+    "-390_-693" : {
+      "archivo" : "v1/celdas/-390_-693.json.gz",
+      "sucursales" : 1,
+      "bytes" : 45911,
+      "sha256" : "63312114692e5e1a41e205dc5a23f7d3d942b8f599dc98a1967aa77f1e44374a"
+    },
+    "-391_-676" : {
+      "archivo" : "v1/celdas/-391_-676.json.gz",
+      "sucursales" : 1,
+      "bytes" : 77083,
+      "sha256" : "f70cbe06ca6d7b45c15bbab22418ef413685a40070f0c9f51080c7a5ca1599ff"
+    },
+    "-412_-713" : {
+      "archivo" : "v1/celdas/-412_-713.json.gz",
+      "sucursales" : 1,
+      "bytes" : 63287,
+      "sha256" : "eb84914cae2cf5915eb5a8a7bedfeae8a85f06fcee16a265a7e55159bb5c93b2"
+    },
+    "-428_-651" : {
+      "archivo" : "v1/celdas/-428_-651.json.gz",
+      "sucursales" : 2,
+      "bytes" : 89185,
+      "sha256" : "10b24cb6bca4f6e318252fc3e11ec1245706dee6efaf9d981fe4e5f04e391dc1"
+    },
+    "-433_-654" : {
+      "archivo" : "v1/celdas/-433_-654.json.gz",
+      "sucursales" : 3,
+      "bytes" : 129887,
+      "sha256" : "0312894c96988926f9e3f58d93eb7cffddb7b850f94d6cb1f332bb39af452a2e"
+    },
+    "-459_-675" : {
+      "archivo" : "v1/celdas/-459_-675.json.gz",
+      "sucursales" : 1,
+      "bytes" : 60414,
+      "sha256" : "54a68e59fe5a7909e75cad03b110a8fb05d1f0ecde244be889c29b0775b418e5"
+    },
+    "-459_-676" : {
+      "archivo" : "v1/celdas/-459_-676.json.gz",
+      "sucursales" : 1,
+      "bytes" : 78060,
+      "sha256" : "911840c0df1659d63734e07ee33c13931c5a050e005b11737aedde41f4a2f4f3"
+    },
+    "-465_-676" : {
+      "archivo" : "v1/celdas/-465_-676.json.gz",
+      "sucursales" : 1,
+      "bytes" : 78486,
+      "sha256" : "d360702c01e8c989884b2e3970e2f182cce7af11c8e99669ac86f3b4ba3195ce"
+    },
+    "-517_-693" : {
+      "archivo" : "v1/celdas/-517_-693.json.gz",
+      "sucursales" : 1,
+      "bytes" : 116559,
+      "sha256" : "f9e656da54f561662cc9f1457e1d5f97830f096898cd30da3f92a16fa89bb2f1"
+    },
+    "-538_-678" : {
+      "archivo" : "v1/celdas/-538_-678.json.gz",
+      "sucursales" : 2,
+      "bytes" : 88160,
+      "sha256" : "9e6b714e3040f16bf163c488ade954fa43f6c84ff00d37b5ca7898200344ca06"
+    },
+    "-549_-684" : {
+      "archivo" : "v1/celdas/-549_-684.json.gz",
+      "sucursales" : 1,
+      "bytes" : 82414,
+      "sha256" : "3eadf229698662740d6f552e8ad7c83e75268fbd9ed36d697cf9c5c4abda5b73"
+    }
+  }
+}
