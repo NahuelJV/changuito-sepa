@@ -1,0 +1,101 @@
+# Workflow de ejemplo para el repo público de datos NahuelJV/changuito-sepa.
+#
+# Cómo queda el repo:
+#   main   → una copia de tools/sepa-exportador (pom.xml, mvnw, src/, ...) en la raíz y este archivo en
+#            .github/workflows/publicar-diario.yml
+#   datos  → solo la salida del exportador (v1/indice.json, v1/catalogo.json.gz, v1/celdas/*.json.gz),
+#            reescrita todos los días con un único commit y force-push (la rama no acumula historia).
+#
+# La app lee de SEPA_BASE_URL = https://raw.githubusercontent.com/NahuelJV/changuito-sepa/datos/
+# (por ejemplo https://raw.githubusercontent.com/NahuelJV/changuito-sepa/datos/v1/indice.json).
+#
+# Si el exportador queda en una subcarpeta de main, cambiar EXPORTADOR_DIR.
+
+name: Publicar datos SEPA
+
+on:
+  schedule:
+    # 20:00 hora argentina (UTC-3 todo el año): el archivo del día se publica cerca de las 16:20.
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha del archivo SEPA (AAAA-MM-DD). Vacío: el de hoy"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-sepa
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      EXPORTADOR_DIR: .
+      RAMA_DATOS: datos
+    steps:
+      - name: Código del exportador
+        uses: actions/checkout@v4
+
+      - name: Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Compilar y testear
+        working-directory: ${{ env.EXPORTADOR_DIR }}
+        run: ./mvnw -B -q package
+
+      - name: Exportar
+        id: exportar
+        env:
+          FECHA: ${{ github.event.inputs.fecha }}
+        run: |
+          set +e
+          args=(--salida "$RUNNER_TEMP/publicar" --temporales "$RUNNER_TEMP/sepa" --cadenas CARREFOUR,COTO)
+          if [[ -n "$FECHA" ]]; then args+=(--fecha "$FECHA"); fi
+          java -Xmx3g -jar "$EXPORTADOR_DIR/target/sepa-exportador.jar" "${args[@]}" | tee "$RUNNER_TEMP/reporte.txt"
+          codigo=${PIPESTATUS[0]}
+          if [[ $codigo -eq 3 ]]; then
+            # El portal todavía no publicó el archivo: no se toca la rama datos (la app sigue con el anterior).
+            echo "::warning::El portal no publica el archivo SEPA de la fecha pedida; no se publica nada"
+            echo "publicar=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [[ $codigo -ne 0 ]]; then exit $codigo; fi
+          echo "publicar=true" >> "$GITHUB_OUTPUT"
+          { echo '```'; cat "$RUNNER_TEMP/reporte.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publicar en la rama datos (force-push)
+        if: steps.exportar.outputs.publicar == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd "$RUNNER_TEMP/publicar"
+          fecha="$(jq -r .fecha v1/indice.json)"
+          cat > README.md <<EOF
+          # Changuito · datos SEPA preparados
+
+          Precios de Carrefour y Coto del ${fecha}, por celda de 0,1°, para la app Changuito
+          (contrato del exportador v1). Esta rama se reescribe todos los días.
+
+          Fuente: [Precios Claros - Base SEPA](https://datos.produccion.gob.ar/dataset/sepa-precios),
+          Subsecretaría de Defensa del Consumidor y Lealtad Comercial, Secretaría de Comercio Interior
+          (República Argentina). Licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+          Los datos se filtraron (solo Carrefour y Coto, EAN válidos, promos con descuento menor al 70 %)
+          y se reorganizaron por zona; no son una publicación oficial.
+          EOF
+          git init -q -b "$RAMA_DATOS"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "SEPA ${fecha}"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${RAMA_DATOS}"
+          echo "Publicado: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${RAMA_DATOS}/v1/indice.json" >> "$GITHUB_STEP_SUMMARY"
